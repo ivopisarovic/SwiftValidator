@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-@objc public protocol ValidationDelegate {
+public protocol ValidationDelegate {
     func validationSuccessful()
     func validationFailed(errors: [UITextField:ValidationError])
 }
